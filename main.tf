@@ -19,7 +19,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "test_bucket" {
-  bucket = "my-github-actions-test-bucket"
+  bucket = "yeosy123-github-actions-test-bucket"
 
   tags = {
     Name        = "yeosy-github-actions-test-bucket"
